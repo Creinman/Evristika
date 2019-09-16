@@ -9,18 +9,18 @@ namespace Evristica
 
         public DllImport()
         {
-            GaClass = CreateGa();
+            GaClass = CreateSolver();
         }
 
         public void Dispose()
         {
-            DisposeGa(GaClass);
+            DisposeSolver(GaClass);
         }
 
         [DllImport("GA_Engine.dll")]
-        protected static extern IntPtr CreateGa();
+        protected static extern IntPtr CreateSolver();
 
         [DllImport("GA_Engine.dll")]
-        protected static extern void DisposeGa(IntPtr disposeObject);
+        protected static extern void DisposeSolver(IntPtr disposeObject);
     }
 }

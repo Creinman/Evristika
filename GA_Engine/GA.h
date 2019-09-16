@@ -1,13 +1,14 @@
 #pragma once
-#include "stdafx.h"
+#include "SolveInterface.h"
 
-class __declspec( dllexport ) GA
+class GA : public AbstractSolver
 {
+private:
+
+
+
 public:
     GA();
-    void t();
     virtual ~GA();
 };
-
-
 

@@ -22,6 +22,9 @@
     <Filter Include="Ga_Engine\Source File">
       <UniqueIdentifier>{a7bbb549-b839-48e6-991b-efaa2fa12d5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{03441e6b-314f-4434-85c1-37d4efa0f451}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,8 +39,11 @@
     <ClInclude Include="export\export.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SolveSolution\SolveInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
     <ClInclude Include="GA.h">
-      <Filter>Ga_Engine\Header Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50,8 +56,11 @@
     <ClCompile Include="export\export.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SolveSolution\SolveInterface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
     <ClCompile Include="GA.cpp">
-      <Filter>Ga_Engine\Source File</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
